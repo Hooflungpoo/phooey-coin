@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>$PHOOEY – The Justice Coin</title>
   <style>
     body {
@@ -50,6 +50,33 @@
       color: #ff4500;
       text-decoration: none;
     }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .form-section input[type="text"] {
+      padding: 0.5rem;
+      width: 300px;
+      margin-right: 0.5rem;
+    }
+    .form-section button {
+      padding: 0.5rem 1rem;
+      background-color: #ff4500;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .form-section button:hover {
+      background-color: #e03e00;
+    }
   </style>
 </head>
 <body>
@@ -84,7 +111,41 @@
   </section>
 
   <section>
-    <h2 class="section-title">🚀 Join the Clan</h2>
+    <h2 class="section-title">🖼️ The Dojo Wall</h2>
+    <div class="gallery">
+      <img src="example2.png" alt="Spot NFT Badge">
+      <img src="example3.png" alt="Mop of Justice">
+      <img src="example4.png" alt="NFT Teaser">
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">📜 Roadmap of Mop</h2>
+    <ul>
+      <li>🧹 Phase 1: Sweep the floor</li>
+      <li>🐾 Phase 2: Train with Spot</li>
+      <li>💨 Phase 3: AirDropkick</li>
+      <li>🌕 Phase 4: Moon mopping with Elon’s cat</li>
+    </ul>
+  </section>
+
+  <section class="form-section">
+    <h2 class="section-title">🎁 Airdrop Signup</h2>
+    <p>Enter your Solana wallet address for a chance to receive $PHOOEY drops!</p>
+    <form action="#" method="post">
+      <input type="text" placeholder="Enter your wallet address" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2 class="section-title">🎟️ NFT Whitelist</h2>
+    <p>Dojo Badge NFT series launching soon. Only real degens allowed. Stay tuned!</p>
+    <img src="example4.png" alt="NFT Teaser" style="max-width:300px; display:block; margin:auto;">
+  </section>
+
+  <section>
+    <h2 class="section-title">📣 Connect</h2>
     <ul>
       <li><a href="#">Telegram</a> – Hop in the dojo chat</li>
       <li><a href="#">Twitter/X</a> – Spread the memes</li>
